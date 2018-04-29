@@ -385,3 +385,97 @@ dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/J
          width=1000,height=600)
 barplot(prop.table(table(JoP_OA)),main="Journal of Paleontology, OA proportion")
 dev.off()
+
+
+########## Journal of Systematic Palaeontology
+
+JSP_scopus<-read.csv("C:/Users/PC/Documents/GitHub/OpenPaleo/Journal data/Journal of Systematic Palaeontology/JournalofSystematicPalaeontology_Scopus.csv")
+JSP_unpaywall<-read.csv("C:/Users/PC/Documents/GitHub/OpenPaleo/Journal data/Journal of Systematic Palaeontology/JournalofSystematicPalaeontology_Unpaywall.csv")
+
+# Create a new factor for OA status
+JSP_OA<-JSP_unpaywall[,"is_oa"]
+
+JSP_DOI<-JSP_scopus[,"DOI"]
+
+# Pull out citation counts, and replace NAs with zero counts
+JSP_cite<-JSP_scopus[,"Cited.by"]
+JSP_cite[is.na(JSP_cite)]<-0
+
+# Histogram plot
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Journal of Systematic Palaeontology/JSP_citefreq.png',
+         width=1000,height=600)
+JSP_hist<-hist(JSP_cite,col="red",xlab="Citation count",
+               main="Journal of Systematic Palaeontology",breaks=20)
+
+# Add a normal distribution curve
+xfit<-seq(min(JSP_cite),max(JSP_cite),length=100) 
+yfit<-dnorm(xfit,mean=mean(JSP_cite),sd=sd(JSP_cite)) 
+yfit <- yfit*diff(JSP_hist$mids[1:2])*length(JSP_cite)
+lines(xfit,yfit,col="blue",lwd=2)
+abline(v=1.591,col="blue",lwd=2,lty=2) # 2016 JIF
+dev.off()
+
+# Try a density plot instead
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Journal of Systematic Palaeontology/JSP_citedensity.png',
+         width=1000,height=600)
+plot(density(JSP_cite),xlab="Citation count",
+     main="Journal of Systematic Palaeontology")
+polygon((density(JSP_cite)),col = "red")
+abline(v=1.591,col="blue",lwd=2,lty=2) # 2016 JIF
+dev.off()
+
+# Summarise how many articles are OA and how many are not
+summary(JSP_OA)
+
+# Plot as a proportional barplot
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Journal of Systematic Palaeontology/JSP_OAprop.png',
+         width=1000,height=600)
+barplot(prop.table(table(JSP_OA)),main="Journal of Systematic Palaeontology, OA proportion")
+dev.off()
+
+
+########## Journal of Vertebrate Paleontology
+
+JVP_scopus<-read.csv("C:/Users/PC/Documents/GitHub/OpenPaleo/Journal data/Journal of Vertebrate Paleontology/JournalofVertebratePaleontology_Scopus.csv")
+JVP_unpaywall<-read.csv("C:/Users/PC/Documents/GitHub/OpenPaleo/Journal data/Journal of Vertebrate Paleontology/JournalofVertebratePaleontology_Unpaywall.csv")
+
+# Create a new factor for OA status
+JVP_OA<-JVP_unpaywall[,"is_oa"]
+
+JVP_DOI<-JVP_scopus[,"DOI"]
+
+# Pull out citation counts, and replace NAs with zero counts
+JVP_cite<-JVP_scopus[,"Cited.by"]
+JVP_cite[is.na(JVP_cite)]<-0
+
+# Histogram plot
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Journal of Vertebrate Paleontology/JVP_citefreq.png',
+         width=1000,height=600)
+JVP_hist<-hist(JVP_cite,col="red",xlab="Citation count",
+               main="Journal of Vertebrate Paleontology",breaks=20)
+
+# Add a normal distribution curve
+xfit<-seq(min(JVP_cite),max(JVP_cite),length=100) 
+yfit<-dnorm(xfit,mean=mean(JVP_cite),sd=sd(JVP_cite)) 
+yfit <- yfit*diff(JVP_hist$mids[1:2])*length(JVP_cite)
+lines(xfit,yfit,col="blue",lwd=2)
+abline(v=1.591,col="blue",lwd=2,lty=2) # 2016 JIF
+dev.off()
+
+# Try a density plot instead
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Journal of Vertebrate Paleontology/JVP_citedensity.png',
+         width=1000,height=600)
+plot(density(JVP_cite),xlab="Citation count",
+     main="Journal of Vertebrate Paleontology")
+polygon((density(JVP_cite)),col = "red")
+abline(v=1.591,col="blue",lwd=2,lty=2) # 2016 JIF
+dev.off()
+
+# Summarise how many articles are OA and how many are not
+summary(JVP_OA)
+
+# Plot as a proportional barplot
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Journal of Vertebrate Paleontology/JVP_OAprop.png',
+         width=1000,height=600)
+barplot(prop.table(table(JVP_OA)),main="Journal of Vertebrate Paleontology, OA proportion")
+dev.off()
