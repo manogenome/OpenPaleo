@@ -27,7 +27,7 @@ APP_cite<-APP_scopus[,"Cited.by"]
 APP_cite[is.na(APP_cite)]<-0
 
 # Histogram plot
-dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Acta Palaeontologica Polonica/APP_citefreq.png',
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Acta Palaeontologica Polonica/APP_citefreq.png',
          width=1000,height=600)
 APP_hist<-hist(APP_cite,col="red",xlab="Citation count",
                main="Acta Palaeontologica Polonica",breaks=20)
@@ -53,7 +53,7 @@ dev.off()
 summary(APP_OA)
 
 # Plot as a proportional barplot
-dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Acta Palaeontologica Polonica/APP_OAprop.png',
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Acta Palaeontologica Polonica/APP_OAprop.png',
          width=1000,height=600)
 barplot(prop.table(table(APP_OA)),main="Acta Palaeontologica Polonica, OA proportion")
 dev.off()
@@ -99,7 +99,7 @@ dev.off()
 summary(BoG_OA)
 
 # Plot as a proportional barplot
-dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Bulletin of Geosciences/BoG_OAprop.png',
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Bulletin of Geosciences/BoG_OAprop.png',
          width=1000,height=600)
 barplot(prop.table(table(BoG_OA)),main="Bulletin of Geosciences, OA proportion")
 dev.off()
@@ -146,7 +146,7 @@ dev.off()
 summary(CRP_OA)
 
 # Plot as a proportional barplot
-dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Comptes Rendus Palevol/CRP_OAprop.png',
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Comptes Rendus Palevol/CRP_OAprop.png',
          width=1000,height=600)
 barplot(prop.table(table(CRP_OA)),main="Comptes Rendus Palevol, OA proportion")
 dev.off()
@@ -193,7 +193,7 @@ dev.off()
 summary(CR_OA)
 
 # Plot as a proportional barplot
-dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Cretaceous Research/CR_OAprop.png',
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Cretaceous Research/CR_OAprop.png',
          width=1000,height=600)
 barplot(prop.table(table(CR_OA)),main="Cretaceous Research, OA proportion")
 dev.off()
@@ -240,7 +240,7 @@ dev.off()
 summary(Facies_OA)
 
 # Plot as a proportional barplot
-dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Facies/Facies_OAprop.png',
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Facies/Facies_OAprop.png',
          width=1000,height=600)
 barplot(prop.table(table(Facies_OA)),main="Facies, OA proportion")
 dev.off()
@@ -287,7 +287,7 @@ dev.off()
 summary(Geobios_OA)
 
 # Plot as a proportional barplot
-dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Geobios/Geobios_OAprop.png',
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Geobios/Geobios_OAprop.png',
          width=1000,height=600)
 barplot(prop.table(table(Geobios_OA)),main="Geobios, OA proportion")
 dev.off()
@@ -334,7 +334,7 @@ dev.off()
 summary(HB_OA)
 
 # Plot as a proportional barplot
-dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Historical Biology/HB_OAprop.png',
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Historical Biology/HB_OAprop.png',
          width=1000,height=600)
 barplot(prop.table(table(HB_OA)),main="Historical Biology, OA proportion")
 dev.off()
@@ -381,7 +381,7 @@ dev.off()
 summary(JoP_OA)
 
 # Plot as a proportional barplot
-dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Journal of Paleontology/JoP_OAprop.png',
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Journal of Paleontology/JoP_OAprop.png',
          width=1000,height=600)
 barplot(prop.table(table(JoP_OA)),main="Journal of Paleontology, OA proportion")
 dev.off()
@@ -428,7 +428,7 @@ dev.off()
 summary(JSP_OA)
 
 # Plot as a proportional barplot
-dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Journal of Systematic Palaeontology/JSP_OAprop.png',
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Journal of Systematic Palaeontology/JSP_OAprop.png',
          width=1000,height=600)
 barplot(prop.table(table(JSP_OA)),main="Journal of Systematic Palaeontology, OA proportion")
 dev.off()
@@ -475,7 +475,7 @@ dev.off()
 summary(JVP_OA)
 
 # Plot as a proportional barplot
-dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Journal of Vertebrate Paleontology/JVP_OAprop.png',
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Journal of Vertebrate Paleontology/JVP_OAprop.png',
          width=1000,height=600)
 barplot(prop.table(table(JVP_OA)),main="Journal of Vertebrate Paleontology, OA proportion")
 dev.off()
@@ -522,7 +522,7 @@ dev.off()
 summary(Lethaia_OA)
 
 # Plot as a proportional barplot
-dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Lethaia/Lethaia_OAprop.png',
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Lethaia/Lethaia_OAprop.png',
          width=1000,height=600)
 barplot(prop.table(table(Lethaia_OA)),main="Lethaia, OA proportion")
 dev.off()
@@ -569,7 +569,7 @@ dev.off()
 summary(MM_OA)
 
 # Plot as a proportional barplot
-dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Marine Micropaleontology/MM_OAprop.png',
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Marine Micropaleontology/MM_OAprop.png',
          width=1000,height=600)
 barplot(prop.table(table(MM_OA)),main="Marine Micropaleontology, OA proportion")
 dev.off()
@@ -616,7 +616,7 @@ dev.off()
 summary(PP_OA)
 
 # Plot as a proportional barplot
-dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Palaeobiodiversity and Palaeoenvironments/PP_OAprop.png',
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Palaeobiodiversity and Palaeoenvironments/PP_OAprop.png',
          width=1000,height=600)
 barplot(prop.table(table(PP_OA)),main="Palaeobiodiversity and Palaeoenvironments, OA proportion")
 dev.off()
@@ -663,7 +663,7 @@ dev.off()
 summary(PPP_OA)
 
 # Plot as a proportional barplot
-dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Palaeogeography, Palaeoclimatology, Palaeoecology/PPP_OAprop.png',
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Palaeogeography, Palaeoclimatology, Palaeoecology/PPP_OAprop.png',
          width=1000,height=600)
 barplot(prop.table(table(PPP_OA)),main="Palaeogeography, Palaeoclimatology, Palaeoecology, OA proportion")
 dev.off()
@@ -711,7 +711,7 @@ dev.off()
 # summary(PE_OA)
 
 # Plot as a proportional barplot
-# dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Palaeontologia Electronica/PE_OAprop.png',
+# dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Palaeontologia Electronica/PE_OAprop.png',
 #         width=1000,height=600)
 # barplot(prop.table(table(PE_OA)),main="Palaeontologia Electronica, OA proportion")
 # dev.off()
@@ -761,4 +761,192 @@ summary(Palaeontology_OA)
 dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Palaeontology/Palaeontology_OAprop.png',
          width=1000,height=600)
 barplot(prop.table(table(Palaeontology_OA)),main="Palaeontology, OA proportion")
+dev.off()
+
+
+############## Palaios
+
+Palaios_scopus<-read.csv("C:/Users/PC/Documents/GitHub/OpenPaleo/Journal data/Palaios/Palaios_Scopus.csv")
+Palaios_unpaywall<-read.csv("C:/Users/PC/Documents/GitHub/OpenPaleo/Journal data/Palaios/Palaios_Unpaywall.csv")
+
+# Create a new factor for OA status
+Palaios_OA<-Palaios_unpaywall[,"is_oa"]
+
+Palaios_DOI<-Palaios_scopus[,"DOI"]
+
+# Pull out citation counts, and replace NAs with zero counts
+Palaios_cite<-Palaios_scopus[,"Cited.by"]
+Palaios_cite[is.na(Palaios_cite)]<-0
+
+# Histogram plot
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Palaios/Palaios_citefreq.png',
+         width=1000,height=600)
+Palaios_hist<-hist(Palaios_cite,col="red",xlab="Citation count",
+                         main="Palaios",breaks=20)
+
+# Add a normal distribution curve
+xfit<-seq(min(Palaios_cite),max(Palaios_cite),length=100) 
+yfit<-dnorm(xfit,mean=mean(Palaios_cite),sd=sd(Palaios_cite)) 
+yfit <- yfit*diff(Palaios_hist$mids[1:2])*length(Palaios_cite)
+lines(xfit,yfit,col="blue",lwd=2)
+abline(v=1.983,col="blue",lwd=2,lty=2) # 2016 JIF
+dev.off()
+
+# Try a density plot instead
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Palaios/Palaios_citedensity.png',
+         width=1000,height=600)
+plot(density(Palaios_cite),xlab="Citation count",
+     main="Palaios")
+polygon((density(Palaios_cite)),col = "red")
+abline(v=1.983,col="blue",lwd=2,lty=2) # 2016 JIF
+dev.off()
+
+# SuPalaiosarise how many articles are OA and how many are not
+summary(Palaios_OA)
+
+# Plot as a proportional barplot
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Palaios/Palaios_OAprop.png',
+         width=1000,height=600)
+barplot(prop.table(table(Palaios_OA)),main="Palaios, OA proportion")
+dev.off()
+
+
+############## Paläontologische Zeitschrift
+
+PZ_scopus<-read.csv("C:/Users/PC/Documents/GitHub/OpenPaleo/Journal data/Paläontologische Zeitschrift/PaläontologischeZeitschrift_Scopus.csv")
+PZ_unpaywall<-read.csv("C:/Users/PC/Documents/GitHub/OpenPaleo/Journal data/Paläontologische Zeitschrift/PaläontologischeZeitschrift_Unpaywall.csv")
+
+# Create a new factor for OA status
+PZ_OA<-PZ_unpaywall[,"is_oa"]
+
+PZ_DOI<-PZ_scopus[,"DOI"]
+
+# Pull out citation counts, and replace NAs with zero counts
+PZ_cite<-PZ_scopus[,"Cited.by"]
+PZ_cite[is.na(PZ_cite)]<-0
+
+# Histogram plot
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Paläontologische Zeitschrift/PaläontologischeZeitschrift_citefreq.png',
+         width=1000,height=600)
+PZ_hist<-hist(PZ_cite,col="red",xlab="Citation count",
+                   main="Paläontologische Zeitschrift",breaks=20)
+
+# Add a normal distribution curve
+xfit<-seq(min(PZ_cite),max(PZ_cite),length=100) 
+yfit<-dnorm(xfit,mean=mean(PZ_cite),sd=sd(PZ_cite)) 
+yfit <- yfit*diff(PZ_hist$mids[1:2])*length(PZ_cite)
+lines(xfit,yfit,col="blue",lwd=2)
+abline(v=1.095,col="blue",lwd=2,lty=2) # 2016 JIF
+dev.off()
+
+# Try a density plot instead
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Paläontologische Zeitschrift/PaläontologischeZeitschrift_citedensity.png',
+         width=1000,height=600)
+plot(density(PZ_cite),xlab="Citation count",
+     main="PZ")
+polygon((density(PZ_cite)),col = "red")
+abline(v=1.095,col="blue",lwd=2,lty=2) # 2016 JIF
+dev.off()
+
+# SuPZarise how many articles are OA and how many are not
+summary(PZ_OA)
+
+# Plot as a proportional barplot
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Paläontologische Zeitschrift/Paläontologische Zeitschrift_OAprop.png',
+         width=1000,height=600)
+barplot(prop.table(table(PZ_OA)),main="Paläontologische Zeitschrift, OA proportion")
+dev.off()
+
+
+############## Paleobiology
+
+Paleobiology_scopus<-read.csv("C:/Users/PC/Documents/GitHub/OpenPaleo/Journal data/Paleobiology/Paleobiology_Scopus.csv")
+Paleobiology_unpaywall<-read.csv("C:/Users/PC/Documents/GitHub/OpenPaleo/Journal data/Paleobiology/Paleobiology_Unpaywall.csv")
+
+# Create a new factor for OA status
+Paleobiology_OA<-Paleobiology_unpaywall[,"is_oa"]
+
+Paleobiology_DOI<-Paleobiology_scopus[,"DOI"]
+
+# Pull out citation counts, and replace NAs with zero counts
+Paleobiology_cite<-Paleobiology_scopus[,"Cited.by"]
+Paleobiology_cite[is.na(Paleobiology_cite)]<-0
+
+# Histogram plot
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Paleobiology/Paleobiology_citefreq.png',
+         width=1000,height=600)
+Paleobiology_hist<-hist(Paleobiology_cite,col="red",xlab="Citation count",
+              main="Paleobiology",breaks=20)
+
+# Add a normal distribution curve
+xfit<-seq(min(Paleobiology_cite),max(Paleobiology_cite),length=100) 
+yfit<-dnorm(xfit,mean=mean(Paleobiology_cite),sd=sd(Paleobiology_cite)) 
+yfit <- yfit*diff(Paleobiology_hist$mids[1:2])*length(Paleobiology_cite)
+lines(xfit,yfit,col="blue",lwd=2)
+abline(v=1.095,col="blue",lwd=2,lty=2) # 2016 JIF
+dev.off()
+
+# Try a density plot instead
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Paleobiology/Paleobiology_citedensity.png',
+         width=1000,height=600)
+plot(density(Paleobiology_cite),xlab="Citation count",
+     main="Paleobiology")
+polygon((density(Paleobiology_cite)),col = "red")
+abline(v=1.095,col="blue",lwd=2,lty=2) # 2016 JIF
+dev.off()
+
+# SuPaleobiologyarise how many articles are OA and how many are not
+summary(Paleobiology_OA)
+
+# Plot as a proportional barplot
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Paleobiology/Paleobiology_OAprop.png',
+         width=1000,height=600)
+barplot(prop.table(table(Paleobiology_OA)),main="Paleobiology, OA proportion")
+dev.off()
+
+
+############## Review of Palaeobotany and Palynology
+
+RPP_scopus<-read.csv("C:/Users/PC/Documents/GitHub/OpenPaleo/Journal data/Review of Palaeobotany and Palynology/ReviewofPalaeobotanyandPalynology_Scopus.csv")
+RPP_unpaywall<-read.csv("C:/Users/PC/Documents/GitHub/OpenPaleo/Journal data/Review of Palaeobotany and Palynology/ReviewofPalaeobotanyandPalynology_Unpaywall.csv")
+
+# Create a new factor for OA status
+RPP_OA<-RPP_unpaywall[,"is_oa"]
+
+RPP_DOI<-RPP_scopus[,"DOI"]
+
+# Pull out citation counts, and replace NAs with zero counts
+RPP_cite<-RPP_scopus[,"Cited.by"]
+RPP_cite[is.na(RPP_cite)]<-0
+
+# Histogram plot
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Review of Palaeobotany and Palynology/RPP_citefreq.png',
+         width=1000,height=600)
+RPP_hist<-hist(RPP_cite,col="red",xlab="Citation count",
+                        main="Review of Palaeobotany and Palynology",breaks=20)
+
+# Add a normal distribution curve
+xfit<-seq(min(RPP_cite),max(RPP_cite),length=100) 
+yfit<-dnorm(xfit,mean=mean(RPP_cite),sd=sd(RPP_cite)) 
+yfit <- yfit*diff(RPP_hist$mids[1:2])*length(RPP_cite)
+lines(xfit,yfit,col="blue",lwd=2)
+abline(v=1.817,col="blue",lwd=2,lty=2) # 2016 JIF
+dev.off()
+
+# Try a density plot instead
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/Citation analysis/Review of Palaeobotany and Palynology/RPP_citedensity.png',
+         width=1000,height=600)
+plot(density(RPP_cite),xlab="Citation count",
+     main="Review of Palaeobotany and Palynology")
+polygon((density(RPP_cite)),col = "red")
+abline(v=1.817,col="blue",lwd=2,lty=2) # 2016 JIF
+dev.off()
+
+# SuRPParise how many articles are OA and how many are not
+summary(RPP_OA)
+
+# Plot as a proportional barplot
+dev.copy(png,'C:/Users/PC/Documents/GitHub/OpenPaleo/Results/OA analysis/Review of Palaeobotany and Palynology/RPP_OAprop.png',
+         width=1000,height=600)
+barplot(prop.table(table(RPP_OA)),main="Review of Palaeobotany and Palynology, OA proportion")
 dev.off()
