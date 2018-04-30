@@ -30,6 +30,8 @@ Metadata were extracted from Scopus journal-by-journal (as csv files), with the 
 
 ![Scopus screenshot](Scopus.png)
 
+It is worth noting here that due to the time scale of this study, virtually every paper analysed here could be legally self-archived in accordance with the journal policy (i.e., green Open Access), for free, and keeping with any published-enforced embargo period (at most 12 months here). It is further worth noting that this is clearly not the case.
+
 ### Wikidata / WikiCite
 
 [WikiCite](https://meta.wikimedia.org/wiki/WikiCite) provides a lot of integrated data around scholarly literature,
@@ -59,6 +61,8 @@ All of the results of these steps are available within this [repository](https:/
 ### Google Scholar
 
 While Unpaywall checks to see if legitimate versions have been made OA, researchers often also tend to share their articles in non-copyright compliant ways. Therefore, data will be cross-checked with Google Scholar to see whether articles are freely available, which versions are available, and through which services or platforms.
+
+For this, Acta Palaeontological Polonica, Bulletin of Geosciences, PLOS ONE, and Palaeontologica Electronica were all removed prior to analysis, as they are all fully Open Access journals. All others are considered as 'hybrid' journals, and therefore contain a mixture of paywalled and non-paywalled content.
 
 ### Author survey
 
