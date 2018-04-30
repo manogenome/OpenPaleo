@@ -56,6 +56,10 @@ The next phase is to use the [Unpaywall DOI checker](https://unpaywall.org/check
 
 All of the results of these steps are available within this [repository](https://github.com/Meta-Paleo/OpenPaleo/tree/master/Journal%20data).
 
+### Google Scholar
+
+While Unpaywall checks to see if legitimate versions have been made OA, researchers often also tend to share their articles in non-copyright compliant ways. Therefore, data will be cross-checked with Google Scholar to see whether articles are freely available, which versions are available, and through which services or platforms.
+
 ### Author survey
 
 These data will be supplemented by conducting an author survey, built in Google Forms. Suggestions for this survey will be supplemented using an open system through GitHub here.
