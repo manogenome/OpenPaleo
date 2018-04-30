@@ -32,11 +32,6 @@ Metadata were extracted from Scopus journal-by-journal (as csv files), with the 
 
 It is worth noting here that due to the time scale of this study, virtually every paper analysed here could be legally self-archived in accordance with the journal policy (i.e., green Open Access), for free, and keeping with any published-enforced embargo period (at most 12 months here). It is further worth noting that this is clearly not the case.
 
-### Wikidata / WikiCite
-
-[WikiCite](https://meta.wikimedia.org/wiki/WikiCite) provides a lot of integrated data around scholarly literature,
-linking research papers with authors, topics, species, and much, much more. All data is CCZero and integrates many
-online resources. [Scholia](https://arxiv.org/abs/1703.04222) gives an idea what it can [do for paleontology](https://tools.wmflabs.org/scholia/topic/Q7205).
 
 #### A little hiccup
 
@@ -90,6 +85,12 @@ The following aspects will be looked at, where applicable.
 - What the copyright status of articles is
 
 Results will be reported anonymously, and available for inspection and reuse.
+
+### Wikidata / WikiCite
+
+[WikiCite](https://meta.wikimedia.org/wiki/WikiCite) provides a lot of integrated data around scholarly literature,
+linking research papers with authors, topics, species, and much, much more. All data is CCZero and integrates many
+online resources. [Scholia](https://arxiv.org/abs/1703.04222) gives an idea what it can [do for paleontology](https://tools.wmflabs.org/scholia/topic/Q7205).
 
 ## Communications
 
