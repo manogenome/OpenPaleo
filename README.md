@@ -60,7 +60,13 @@ All of the results of these steps are available within this [repository](https:/
 
 ### Google Scholar
 
-While Unpaywall checks to see if legitimate versions have been made OA, researchers often also tend to share their articles in non-copyright compliant ways. Therefore, data will be cross-checked with Google Scholar to see whether articles are freely available, which versions are available, and through which services or platforms.
+While Unpaywall checks to see if legitimate versions of articles have been made OA (i.e., via green self-archiving routes), researchers often also often tend to share their articles in non-copyright compliant ways. This includes on platforms such as ResearchGate or Academia.edu.
+
+Therefore, data will be cross-checked with Google Scholar, which has this information at an article-level, to see: 
+
+- Whether articles are freely available; 
+- Which versions are available;
+- Which services or platforms are most used.
 
 For this, Acta Palaeontological Polonica, Bulletin of Geosciences, PLOS ONE, and Palaeontologica Electronica were all removed prior to analysis, as they are all fully Open Access journals. All others are considered as 'hybrid' journals, and therefore contain a mixture of paywalled and non-paywalled content.
 
