@@ -1,0 +1,7 @@
+```
+
+PalaeogeographyPalaeoclimatologyPalaeoecology_Scopus.csv
+PalaeogeographyPalaeoclimatologyPalaeoecology_Scopus.csv.png
+PalaeogeographyPalaeoclimatologyPalaeoecology_Scopus.txt
+PalaeogeographyPalaeoclimatologyPalaeoecology_Unpaywall.csv
+PalaeogeographyPalaeoclimatologyPalaeoecology_Unpaywall.csv.png

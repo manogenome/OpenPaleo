@@ -1,0 +1,7 @@
+```
+
+JournalofPaleontology_Scopus.csv
+JournalofPaleontology_Scopus.csv.png
+JournalofPaleontology_Scopus.txt
+JournalofPaleontology_Unpaywall.csv
+JournalofPaleontology_Unpaywall.csv.png
