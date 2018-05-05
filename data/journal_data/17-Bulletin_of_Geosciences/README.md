@@ -1,0 +1,7 @@
+```
+
+BulletinofGeosciences_Scopus.csv
+BulletinofGeosciences_Scopus.csv.png
+BulletinofGeosciences_Scopus.txt
+BulletinofGeosciences_Unpaywall.csv
+BulletinofGeosciences_Unpaywall.csv.png

@@ -1,0 +1,7 @@
+```
+
+ReviewofPalaeobotanyandPalynology_Scopus.csv
+ReviewofPalaeobotanyandPalynology_Scopus.csv.png
+ReviewofPalaeobotanyandPalynology_Scopus.txt
+ReviewofPalaeobotanyandPalynology_Unpaywall.csv
+ReviewofPalaeobotanyandPalynology_Unpaywall.csv.png

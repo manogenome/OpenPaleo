@@ -1,0 +1,7 @@
+```
+
+JournalofSystematicPalaeontology_Scopus.csv
+JournalofSystematicPalaeontology_Scopus.csv.png
+JournalofSystematicPalaeontology_Scopus.txt
+JournalofSystematicPalaeontology_Unpaywall.csv
+JournalofSystematicPalaeontology_Unpaywall.csv.png

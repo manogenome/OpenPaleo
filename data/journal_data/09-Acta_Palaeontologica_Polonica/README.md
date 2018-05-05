@@ -1,0 +1,9 @@
+```
+
+ActaPalaeontologicaPolonica_Scopus.csv
+ActaPalaeontologicaPolonica_Scopus.csv.png
+ActaPalaeontologicaPolonica_Scopus.txt
+ActaPalaeontologicaPolonica_Scopus2.csv
+ActaPalaeontologicaPolonica_Scopus2.csv.png
+ActaPalaeontologicaPolonica_Unpaywall.csv
+ActaPalaeontologicaPolonica_Unpaywall.csv.png

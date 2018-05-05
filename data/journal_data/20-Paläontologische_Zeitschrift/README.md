@@ -1,0 +1,7 @@
+```
+
+PaläontologischeZeitschrift_Scopus.csv.png
+PaläontologischeZeitschrift_Unpaywall.csv.png
+PaläontologischeZeitschrift_Scopus.csv
+PaläontologischeZeitschrift_Scopus.txt
+PaläontologischeZeitschrift_Unpaywall.csv

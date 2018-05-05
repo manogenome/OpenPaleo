@@ -1,0 +1,7 @@
+```
+
+ComptesRendusPalevol_Scopus.csv
+ComptesRendusPalevol_Scopus.csv.png
+ComptesRendusPalevol_Scopus.txt
+ComptesRendusPalevol_Unpaywall.csv
+ComptesRendusPalevol_Unpaywall.csv.png
