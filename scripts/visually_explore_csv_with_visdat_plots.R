@@ -10,7 +10,7 @@ new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"
 if(length(new.packages)) install.packages(new.packages, repos='https://cran.rstudio.com/')
 suppressPackageStartupMessages(require(visdat))
 
-# reading commandline arguments
+# read command-line arguments
 args <- commandArgs(TRUE)
 input.file <- args[1]; plot.width <- as.numeric(args[2])
 plot.height <- as.numeric(args[3]); plot.resolution <- as.numeric(args[4])
