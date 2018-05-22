@@ -23,3 +23,5 @@ $ R
 # visually inspect the merged paleo journals data with visdat package
 $ Rscript ../../scripts/visually_explore_tsv_with_visdat_plots.R paleo_journals_scopus_unpaywall_data.tsv 10 10 150
 ```
+
+![paleo_journals_scopus_unpaywall_data.tsv visdat view](paleo_journals_scopus_unpaywall_data.tsv.png)
