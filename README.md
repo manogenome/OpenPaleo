@@ -39,6 +39,9 @@ Note that there was an issue here with encoding of the csv exports from Scopus. 
 
 For Acta Palaeontological Polonica, this was not entirely resolved, and two lines of fragmented entries were removed prior to subsequent analysis.
 
+#### Clean data
+
+Using [Visdat](https://github.com/ropensci/visdat) R package to visually inspect the data, we were able to spot the issue and fix them. Following this, offending header formats and empty rows and columns were scrubbed off the data using [Janitor](https://github.com/sfirke/janitor) R package.
 #### PLOS ONE
 
 Data for PLOS ONE were obtained using the Rplos package in R. The code, resulting data, and Unpaywall query results can all be found [here](https://github.com/Meta-Paleo/OpenPaleo/tree/master/Journal%20data/PLOS%20ONE). Note that some of the data here are different to that obtained to Scopus queries.
