@@ -5,7 +5,9 @@ Scripts used to analyse the data, including generating plots.
 
 # visually inspect csv files with visdat package
 
-$ for csv in ../data/journal_data/*/*.csv; do /usr/local/bin/Rscript visually_explore_csv_with_visdat_plots.R $csv 10 10 150; done
+$ for csv in ../data/journal_data/*/*.csv;
+
+  do /usr/local/bin/Rscript visually_explore_csv_with_visdat_plots.R $csv 10 10 150; done;
 
 
 # clean csv files with janitor package
@@ -23,6 +25,8 @@ $ for scopus in ../data/journal_data/*/*_Scopus.csv;
 
 # visually inspect processed tsv files with visdat package
 
-$ for tsv in ../data/journal_data/*/*.tsv; do /usr/local/bin/Rscript visually_explore_tsv_with_visdat_plots.R $csv 10 10 150; done
+$ for tsv in ../data/journal_data/*/*.tsv;
+
+  do /usr/local/bin/Rscript visually_explore_tsv_with_visdat_plots.R $csv 10 10 150; done;
 
 ```
