@@ -8,10 +8,11 @@ mv ReviewofPalaeobotanyandPalynology_Scopus.csv ReviewofPalaeobotanyandPalynolog
 # the misalignment can be seen in the ReviewofPalaeobotanyandPalynology_Scopus.raw.csv.png
 ```
 
-ReviewofPalaeobotanyandPalynology\_Scopus.raw.csv.png
+The misaligned row can be seen after 100th row in ReviewofPalaeobotanyandPalynology\_Scopus.raw.csv.png
 ![](ReviewofPalaeobotanyandPalynology_Scopus.raw.csv.png)
 
-```
+```bash
+
 # to fix the misaligned row, first a copy of the raw scopus data is made
 cp ReviewofPalaeobotanyandPalynology_Scopus.raw.csv ReviewofPalaeobotanyandPalynology_Scopus.csv
 
@@ -23,10 +24,11 @@ cp ReviewofPalaeobotanyandPalynology_Scopus.raw.csv ReviewofPalaeobotanyandPalyn
 
 ```
 
-ReviewofPalaeobotanyandPalynology\_Scopus.csv.png
+Post correction: ReviewofPalaeobotanyandPalynology\_Scopus.csv.png
 ![](ReviewofPalaeobotanyandPalynology_Scopus.csv.png)
 
-```
+```bash
+
 # now this csv file is cleaned with Janitor package to produce the following three tsv files
 05-Review_of_Palaeobotany_and_Palynology_Combined_Scopus_Unpaywall.tsv
 05-Review_of_Palaeobotany_and_Palynology_Scopus.tsv
@@ -39,5 +41,5 @@ ReviewofPalaeobotanyandPalynology\_Scopus.csv.png
 
 ```
 
-Review\_of\_Palaeobotany\_and\_Palynology\_Combined\_Scopus\_Unpaywall.tsv
-![](Review_of_Palaeobotany_and_Palynology_Combined_Scopus_Unpaywall.tsv)
+Merged Scopus and Unpaywall data: Review\_of\_Palaeobotany\_and\_Palynology\_Combined\_Scopus\_Unpaywall.tsv.png
+![](Review_of_Palaeobotany_and_Palynology_Combined_Scopus_Unpaywall.tsv.png)
