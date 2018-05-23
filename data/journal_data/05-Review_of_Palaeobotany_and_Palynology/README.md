@@ -41,5 +41,5 @@ Post correction: ReviewofPalaeobotanyandPalynology\_Scopus.csv.png
 
 ```
 
-Merged Scopus and Unpaywall data: Review\_of\_Palaeobotany\_and\_Palynology\_Combined\_Scopus\_Unpaywall.tsv.png
-![](Review_of_Palaeobotany_and_Palynology_Combined_Scopus_Unpaywall.tsv.png)
+Merged Scopus and Unpaywall data: 05-Review\_of\_Palaeobotany\_and\_Palynology\_Combined\_Scopus\_Unpaywall.tsv.png
+![](05-Review_of_Palaeobotany_and_Palynology_Combined_Scopus_Unpaywall.tsv.png)
