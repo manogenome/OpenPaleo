@@ -32,7 +32,7 @@ png("paleo_journals_citation_distribution_oa_status.png", width=plot.width, heig
 ggplot(data, aes(x=cited_by, y=journal_name, fill=is_oa)) +
 ggtitle("Paleo Journals: Citation Distribution Based On Open Access Status") +
 geom_density_ridges(aes(point_color = journal_name, point_fill = journal_name, point_shape = is_oa),
-	alpha = 0.4, jittered_points = TRUE, point_size=0.5, position = position_raincloud(adjust_vlines = TRUE)) 
+	alpha = 0.4, jittered_points = TRUE, point_size=0.5, position = position_raincloud(adjust_vlines = TRUE)) + xlim(0, 70) 
 
 dev.off()
 

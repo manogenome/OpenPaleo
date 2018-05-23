@@ -5,10 +5,11 @@
 
 # auto-configure visdat package, if not available
 options(warn=-1)
-list.of.packages <- c("visdat")
+list.of.packages <- c("visdat", "readr")
 new.packages <- list.of.packages[!(list.of.packages %in% installed.packages()[,"Package"])]
 if(length(new.packages)) install.packages(new.packages, repos='https://cran.rstudio.com/')
 suppressPackageStartupMessages(require(visdat))
+suppressPackageStartupMessages(require(readr))
 
 # read command-line arguments
 args <- commandArgs(TRUE)
@@ -16,7 +17,7 @@ input.file <- args[1]; plot.width <- as.numeric(args[2])
 plot.height <- as.numeric(args[3]); plot.resolution <- as.numeric(args[4])
 
 # read csv file, assign 'NA' to blanks
-data <- read.csv(input.file, header=TRUE, na.strings="")
+data <- read_csv(input.file, col_names = TRUE)
 
 # plot visdat output in png format
 output.file <- sub(".csv", ".csv.png", input.file)
