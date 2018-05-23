@@ -1,18 +1,32 @@
-```
+```bash
 
-# the original Scopus CSV data renamed with "raw" tag as there is a misaligned row in the data
-# the misalignment can be seen in the ReviewofPalaeobotanyandPalynology_Scopus.raw.csv.png
+# found a misaligned row in the original Scopus CSV data.
+# to avoid parsing it later, the csv to renamed with "raw" tag.
 
 mv ReviewofPalaeobotanyandPalynology_Scopus.csv ReviewofPalaeobotanyandPalynology_Scopus.raw.csv
 
-# make a copy of the raw scopus data
+# the misalignment can be seen in the ReviewofPalaeobotanyandPalynology_Scopus.raw.csv.png
+```
+
+ReviewofPalaeobotanyandPalynology\_Scopus.raw.csv.png
+![](ReviewofPalaeobotanyandPalynology_Scopus.raw.csv.png)
+
+```
+# to fix the misaligned row, first a copy of the raw scopus data is made
 cp ReviewofPalaeobotanyandPalynology_Scopus.raw.csv ReviewofPalaeobotanyandPalynology_Scopus.csv
 
-# open ReviewofPalaeobotanyandPalynology_Scopus.csv and edit the misaligned row in excel
+# then, open ReviewofPalaeobotanyandPalynology_Scopus.csv and edit the misaligned row in excel
 # save the data in CSV format with UTF-8 encoding
+
 # inspect this file with visdat package again to verify the correction
 # see ReviewofPalaeobotanyandPalynology_Scopus.csv.png
 
+```
+
+ReviewofPalaeobotanyandPalynology\_Scopus.csv.png
+![](ReviewofPalaeobotanyandPalynology_Scopus.csv.png)
+
+```
 # now this csv file is cleaned with Janitor package to produce the following three tsv files
 05-Review_of_Palaeobotany_and_Palynology_Combined_Scopus_Unpaywall.tsv
 05-Review_of_Palaeobotany_and_Palynology_Scopus.tsv
@@ -23,5 +37,7 @@ cp ReviewofPalaeobotanyandPalynology_Scopus.raw.csv ReviewofPalaeobotanyandPalyn
 05-Review_of_Palaeobotany_and_Palynology_Scopus.tsv.png
 05-Review_of_Palaeobotany_and_Palynology_Unpaywall.tsv.png
 
-
 ```
+
+Review\_of\_Palaeobotany\_and\_Palynology\_Combined\_Scopus\_Unpaywall.tsv
+![](Review_of_Palaeobotany_and_Palynology_Combined_Scopus_Unpaywall.tsv)
