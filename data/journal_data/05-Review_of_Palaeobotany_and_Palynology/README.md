@@ -1,7 +1,7 @@
 ```bash
 
 # found a misaligned row in the original Scopus CSV data.
-# to avoid parsing it later, the csv to renamed with "raw" tag.
+# to avoid parsing it later, the csv is renamed with "raw" tag.
 
 mv ReviewofPalaeobotanyandPalynology_Scopus.csv ReviewofPalaeobotanyandPalynology_Scopus.raw.csv
 
