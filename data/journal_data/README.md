@@ -11,13 +11,16 @@ $ ln -s */*_Combined_Scopus_Unpaywall.tsv .
 
 # run the following step in R to read and merge paleo journals data into one master file
 $ R
+> load tidyverse packages
 > require(tidyverse)
+>
 > # get the paleo journals file list
 > tsv_files <- list.files(pattern="*_Combined_Scopus_Unpaywall.tsv")
 >
 > # read files with readr and merge data frames using dplyr map_dfr
 > merged_paleo_journals_data <- tsv_files %>% map_dfr(read_tsv, col_types = cols(.default = "c"))
-> # write the 
+>
+> # write the merged data frame in TSV format using readr
 > write_tsv(merged_paleo_journals_data, path="paleo_journals_scopus_unpaywall_data.tsv")
 > q()
 
